@@ -1,11 +1,12 @@
 import './App.css'
 import './queries.css'
-import Navbar from './navbar.jsx'
+import Landing from './landing.jsx'
+
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Landing />
     </>
   )
 }
