@@ -197,3 +197,15 @@ body {
 .all-btns:hover {
   animation: shrink .4s infinite linear alternate;
 }
+
+.nav-links {
+  position: absolute;
+  top: 9vh;
+  opacity: 0;
+  transition: opacity 0.3s, top 0.3s;
+}
+
+.nav-links.open {
+  top: 7vh;
+  opacity: 1;
+}
