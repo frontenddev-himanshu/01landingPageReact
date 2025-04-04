@@ -1,7 +1,7 @@
 function Allbtn() {
     return (
         <>
-            <button className="all-btns">
+            <button  data-aos="fade-right" className="all-btns">
                 <a href="#">
                     START WITH US
                 </a>

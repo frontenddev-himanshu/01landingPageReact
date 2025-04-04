@@ -1,7 +1,10 @@
+
+
 function Button() {
     return (
         <>
-            <button className="btns">
+            <button data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom" className="btns">
                 <a href="#">
                     Sign Up
                 </a>
